@@ -7,22 +7,35 @@
     <title>Home</title>
 </head>
 
-<body>
-    <nav>
-        <label class="logo">Ka Pui Man's Portfolio</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="https://github.com/fairywizard15" target="_blank">GitHub</a></li>
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Ka Pui Man's Portfolio</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link-active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="project.html" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/fairywizard15" class="nav-link" target="_blank">GitHub</a>
+            </li>
         </ul>
-        <label>
-            <div class="menu-btn">
-                <div class="menu-btn_burger"></div>
-            </div>
-        </label>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
+</header>
+
+<body>
     <script src="scripts/main.js"></script>
 </body>
 
