@@ -1,2 +1,2 @@
 # Portfolio
-This project is based on my design of portfolio to demonstrate my computing skills and to be used of my CV
+This project is based on my design of portfolio to demonstrate my web development skills and to be used of my CV demonstration. In this portfolio you will be able to find all essential information about me, including all previously done projects and contact me information.
